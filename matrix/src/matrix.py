@@ -22,3 +22,5 @@ class Matrix:
         for row in self.matrix:
             matrix_column.append(row[index - 1])
         return matrix_column
+
+        # branch of features/matrix to test merging

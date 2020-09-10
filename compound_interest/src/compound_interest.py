@@ -18,3 +18,6 @@ class CompoundInterest:
 
         final_amount_from_contributions =  (monthly_contribution * ((((1 + (self.rate / self.number_of_times_per_year)) ** (self.years * self.number_of_times_per_year)) - 1) / (self.rate / self.number_of_times_per_year))) * (1 + (self.rate / self.number_of_times_per_year))
         return round((self.calculate_final_amount() + final_amount_from_contributions), 2)
+
+
+    # branch for feature/compound_interest
